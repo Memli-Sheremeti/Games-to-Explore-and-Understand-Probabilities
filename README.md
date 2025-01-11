@@ -37,8 +37,8 @@ This repository is designed for anyone interested in:
 ## 🚀 **How to Run**
 1. **Clone the Repository**:
    ```bash
-   git clone 
-   cd probability-games
+   git clone git@github.com:Memli-Sheremeti/Games-to-Explore-and-Understand-Probabilities.git
+   cd Games-to-Explore-and-Understand-Probabilities
    ```
 
 2. **Set Up the Environment**:
