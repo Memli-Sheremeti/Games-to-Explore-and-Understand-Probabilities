@@ -45,6 +45,9 @@ def parse_input(number_of_game):
         int(number_of_game)
     except ValueError:
         return True
+    else:
+        if int(number_of_game) <= 0:
+            return True
     return False
 
 
@@ -56,7 +59,6 @@ def main():
     ask = input("Do you always want to switch if you can? [Y/N] ")
     while ask != "Y" and ask != "N":
         ask = input("Do you always want to switch if you can? [Y/N] ")
-
     for i in range(int(number_of_game)):
         stats["game"] += 1
         gate_state = {"A": False, "B": False, "C": False}
@@ -68,7 +70,7 @@ def main():
     print(f"Simulation complete: Out of {stats["game"]} games"
           f"there were {stats["win"]} wins"
           f"({(stats["win"]/stats["game"] * 100):.2f}%) and {stats["loose"]}"
-          f"looses ({(stats["loose"]/stats["game"] * 100):.2f}%).")
+          f" looses ({(stats["loose"]/stats["game"] * 100):.2f}%).")
 
 
 if __name__ == "__main__":
