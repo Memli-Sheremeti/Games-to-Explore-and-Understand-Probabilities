@@ -1,85 +1,109 @@
 # Games-to-Explore-and-Understand-Probabilities
 
-Welcome to the **Games to Explore and Understand Probabilities** repository! This collection features Python-based games and simulations that demonstrate key concepts in probability theory and randomness through engaging, interactive experiences.
+Welcome to the **Games to Explore and Understand Probabilities** repository! This project features a variety of Python-based games and simulations that make learning probability concepts engaging and interactive. Whether you're an educator, a student, or just curious about probabilities, this repository provides fun and educational resources.
+
+---
 
 ## 🎯 **Purpose**
-This repository is designed for anyone interested in:
-- Understanding and experimenting with probability concepts.
-- Exploring classic probability problems and paradoxes.
-- Developing Python programming skills through game design.
+This repository is designed to:
+- Help users understand key probability concepts.
+- Provide hands-on learning through classic problems and games.
+- Encourage Python programming skills with practical applications.
 
 ---
 
-## 📚 **Included Games**
+## 📚 **Contents**
+This repository is organized into the following sections:
 
-### 1. **Monty Hall Problem**
-- **Description:** A simulation of the famous Monty Hall paradox, where the player chooses one of three doors, and probabilities are explored through switching or sticking strategies.
-- **Goal:** Understand the counterintuitive nature of conditional probabilities.
+### 1. **Guess the Number**
+- **Folder:** `Guess_The_Number/`
+- **Description:** A game where the computer selects a random number, and different methods (binary search and stochastic search) are used to guess it.
+- **Goal:** Explore random number generation and compare search strategies.
+- **Files:**
+  - `__main__.py`: Main file to run the game.
+  - `binary_search.py`: Implements a binary search guessing method.
+  - `stochastic_search.py`: Implements a stochastic search guessing method.
+  - `user_test_game.py`: Allows the user to guess the number interactively.
 
-### 2. **Guess the Number**
-- **Description:** A game where the computer selects a random number, and the player guesses it with hints of "higher" or "lower."
-- **Goal:** Learn about random number generation and binary search strategies.
-
-### 3. **Coin Flip Simulator**
-- **Description:** Simulates flipping a coin multiple times to analyze outcomes and probabilities.
-- **Goal:** Understand concepts like fairness and distribution in randomness.
-
-### 4. **Dice Roll Probability**
-- **Description:** Roll a die (or multiple dice) and study the probabilities of specific outcomes.
-- **Goal:** Explore combinations and probabilities in multi-dice systems.
-
-### 5. **Mastermind Probability Analysis**
-- **Description:** Play the classic code-breaking game while analyzing the probabilities of specific guesses being correct.
-- **Goal:** Combine strategy with statistical thinking.
+### 2. **Monty Hall Problem**
+- **Folder:** `Monty_Hall_Problem/`
+- **Description:** Simulates the Monty Hall paradox, a famous probability puzzle involving choosing between three doors.
+- **Goal:** Analyze the effects of switching vs. sticking strategies.
+- **Files:**
+  - `monty_hall.py`: Main file to run the Monty Hall simulation.
+  - `README.md`: Explains the Monty Hall problem and how to run the simulation.
 
 ---
 
-## 🚀 **How to Run**
-1. **Clone the Repository**:
+## 🚀 **Getting Started**
+
+### Prerequisites
+- Python 3.x installed on your system.
+- Required dependencies (installable via `pip`).
+
+### Installation
+1. Clone the repository:
    ```bash
-   git clone git@github.com:Memli-Sheremeti/Games-to-Explore-and-Understand-Probabilities.git
+   git clone https://github.com/Memli-Sheremeti/Games-to-Explore-and-Understand-Probabilities.git
    cd Games-to-Explore-and-Understand-Probabilities
    ```
 
-2. **Set Up the Environment**:
-   - Ensure you have Python 3.x installed.
-   - Install any required dependencies with:
-     ```bash
-     pip install -r requirements.txt
-     ```
+### Running the Games
+- To run **Guess the Number**, navigate to the `Guess_The_Number/` folder and execute:
+  ```bash
+  python __main__.py (or any file)
 
-3. **Run a Game**:
-   ```bash
-   python game_name.py
-   ```
-   Replace `game_name.py` with the name of the file you want to run.
+  ```
+
+- To run the **Monty Hall Problem** simulation, navigate to the `Monty_Hall_Problem/` folder and execute:
+  ```bash
+  python monty_hall.py
+  ```
 
 ---
 
-## 🛠️ **Future Additions**
-- **Interactive Visualizations:** Use libraries like `matplotlib` or `pygame` for enhanced interactivity.
-- **Expanded Game Library:** Include more games like lottery simulations, poker hand probabilities, etc.
+## 🛠️ **Future Enhancements**
+Here are some ideas for expanding the repository:
+- **Interactive Visualizations:** Incorporate `matplotlib` or `pygame` to create visual aids for the games and simulations.
+- **Additional Games:** Add more probability-focused games such as:
+  - Coin flip simulations.
+  - Dice roll probabilities.
+  - Lottery simulations.
 - **Web Interface:** Develop a web-based interface using Flask or Django for easier interaction.
 
 ---
 
 ## 🤝 **Contributions**
-Contributions are welcome! Feel free to open issues or submit pull requests to improve existing games or add new ones.
+Contributions are welcome! If you'd like to improve this repository or add new features, please:
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-### Guidelines:
+### Guidelines
 - Follow Python best practices (PEP 8).
-- Ensure all contributions are well-documented and tested.
+- Include clear documentation and comments for any new code.
 
 ---
 
 ## 📜 **License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-## 💡 **Feedback**
-If you have any suggestions or feedback, feel free to reach out or open an issue. Let's learn and have fun with probabilities together!
+## 💡 **Feedback and Suggestions**
+If you have feedback, suggestions, or questions, feel free to open an issue or reach out. Let's explore and understand probabilities together! 🎲✨
 
 ---
 
-Happy coding and exploring probabilities! 🎲
+Happy coding and exploring probabilities! 🚀
